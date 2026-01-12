@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #e6e6e6;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 30px;
+  color: #222;
+}
+
+/* BROCHURE */
+.brochure {
+  width: 900px;
+  height: 420px;
+  background: #ffffff;
+  display: flex;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+  margin: auto;
+}
+
+/* PANELS */
+.panel {
+  width: 33.33%;
+  padding: 30px;
+}
+
+/* COVER */
+.cover {
+  background: linear-gradient(135deg, #0b2f4a, #f2b705);
+  color: #ffffff;
+}
+
+.cover h2 {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.cover img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* ABOUT */
+.about h3 {
+  color: #0b2f4a;
+  margin-bottom: 10px;
+}
+
+.about p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.about ul {
+  list-style: none;
+}
+
+.about li {
+  margin-bottom: 8px;
+}
+
+/* CONTACT */
+.contact {
+  background: #f8f8f8;
+}
+
+.contact h3 {
+  color: #0b2f4a;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
+
+.highlight {
+  background: #f2b705;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #444;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .brochure {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+
+  .panel {
+    width: 100%;
+  }
+}
