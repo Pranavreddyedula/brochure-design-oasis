@@ -1,7 +1,7 @@
 # Tri-Fold Brochure Design – Oasis Infobyte Internship
 
 🔗 Live Project:
-https://pranavreddyedula.github.io/trifold-brochure-design-oasis/
+https://pranavreddyedula.github.io/brochure-design-oasis/
 
 ---
 
